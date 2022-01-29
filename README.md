@@ -1,5 +1,11 @@
 # Relax Data Science Challenge
 
+### Data
+
+1. Users
+2. User engagement
+
+### Analysis
 
 Out of the 12,000 users in the dataset, 1,445 (roughly 12%) were found to be adopted users. With the available data, the 3 most predictive features of user adoption were creation source (5 different methods in which the account was created), domain of the signup email (there were 6 common domains and over a thousand uncommon ones), and the organization the user is from. Whether the user opted into the mailing list or was enabled for the marketing drip was not important in predicting user adoption.
 
