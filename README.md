@@ -1,5 +1,7 @@
 # Relax Data Science Challenge
 
+This is an analysis of user data to understand how many adopted users there are and what is indicative of user adoption. An "adopted user" is defined as a user who has logged into the product on 3 separate days in at least one 7-day period.
+
 ### Data
 
 1. Users
