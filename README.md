@@ -4,8 +4,23 @@ This is an analysis of user data to understand how many adopted users there are 
 
 ### Data
 
-1. Users
-2. User engagement
+1. Users - data on 12,000 users who signed up for the product in the last 2 years
+    - `name` - the user's name
+    - `object_id` - the user's id
+    - `email` - email address
+    - `creation_source` - how the account was created
+        - PERSONAL_PROJECTS - invited to join another user's personal workspace
+        - GUEST_INVITE - invited to an organization as a guest (limited permissions)
+        - ORG_INVITE - invited to an organization (as a full member)
+        - SIGNUP - signed up via the website
+        - SIGNUP_GOOGLE_AUTH - signed up using Google Authentication (using a Google email account for the login id)
+    - `creation_time` - when the account was created
+    - `last_session_creation_time` - unix timestamp of last login
+    - `opted_in_to_mailing_list` - whether the user opted into receiving marketing emails
+    - `enabled_for_marketing_drip` - whether the user is on the regular marketing email drip
+    - `org_id` - the organization the user belongs to
+    - `invited_by_user_id` - id of the inviting user
+2. User engagement - contains a row for each day that a user logged into the product
 
 ### Analysis
 
