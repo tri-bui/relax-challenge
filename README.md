@@ -2,7 +2,8 @@
 
 This is an analysis of user data to understand how many adopted users there are and what is indicative of user adoption. An "adopted user" is defined as a user who has logged into the product on 3 separate days in at least one 7-day period.
 
-### Data
+
+## Data
 
 1. Users - data on 12,000 users who signed up for the product in the last 2 years
     - `name` - the user's name
@@ -22,7 +23,8 @@ This is an analysis of user data to understand how many adopted users there are 
     - `invited_by_user_id` - id of the inviting user
 2. User engagement - contains a row for each day that a user logged into the product
 
-### Analysis
+
+## Analysis
 
 Out of the 12,000 users in the dataset, 1,445 (roughly 12%) were found to be adopted users. With the available data, the 3 most predictive features of user adoption were creation source (5 different methods in which the account was created), domain of the signup email (there were 6 common domains and over a thousand uncommon ones), and the organization the user is from. Whether the user opted into the mailing list or was enabled for the marketing drip was not important in predicting user adoption.
 
